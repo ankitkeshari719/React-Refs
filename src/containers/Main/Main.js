@@ -4,6 +4,7 @@ import Person from "../../components/Persons/Person/Person";
 import TogglePersons from "../../components/TogglePersons/TogglePersons";
 import withClass from "../../hoc/WithClass/WithClass";
 import "./Main.css";
+import RefsExample from "../RefsExample/RefsExample";
 
 class Main extends Component {
   constructor(props) {
@@ -120,6 +121,7 @@ class Main extends Component {
         {togglePersonDoc}
         {personsDoc}
         {personDoc}
+        <RefsExample/>
       </div>
     );
   }
