@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./RefsExample.css";
 
 class RefsExample extends Component {
   constructor(props) {
@@ -11,7 +12,8 @@ class RefsExample extends Component {
 
   render() {
     return (
-      <div>
+      <div className="refsComponent">
+        <h1>Refs Example</h1>
         <input type="text" ref={this.inputRef} />
       </div>
     );

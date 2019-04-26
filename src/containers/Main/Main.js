@@ -119,9 +119,9 @@ class Main extends Component {
     return (
       <div>
         {togglePersonDoc}
+        <RefsExample />
         {personsDoc}
         {personDoc}
-        <RefsExample/>
       </div>
     );
   }

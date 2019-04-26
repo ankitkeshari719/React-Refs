@@ -1,0 +1,10 @@
+.refsComponent {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #eee;
+  box-shadow: 0 0 2px #ccc;
+  display: inline-block;
+  width: 1250px;
+  text-align: center;
+  color: green;
+}
